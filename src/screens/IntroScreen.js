@@ -7,13 +7,14 @@ const IntroScreen = ({ navigation }) => {
       <Text style={styles.title}>Welcome</Text>
       <Image
         style={styles.image}
-        source={require('../../assets/ipc.png')}
+        source={require('../../assets/front.png')}
       />
 
       <Text style={styles.subtitle}>React Native Components</Text>
       <Button
         onPress={() => navigation.navigate('Home')}
         title='Go to Components Home'
+        color='#6236ff'
       />
     </View >
   );
@@ -24,29 +25,31 @@ export default IntroScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'space-around',
+    //alignItems: 'center',
+    padding: 20,
   },
   image: {
-    height: 124,
-    width: 363,
+    height: 250,
+    //width: 363,
     resizeMode: 'contain',
+    alignSelf: 'center',
   },
   title: {
     fontSize: 40,
     fontWeight: 'bold',
-    textAlign: "center",
-    color: "#6236ff",
+    textAlign: 'center',
+    color: '#6236ff',
     marginVertical: 15,
-    width: 350,
+    //width: 350,
 
   },
   subtitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    textAlign: "center",
-    color: "#fa6400",
+    textAlign: 'center',
+    color: '#fa6400',
     marginVertical: 20,
-    width: 350,
+    //width: 350,
   },
 });

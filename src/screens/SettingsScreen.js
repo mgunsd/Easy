@@ -9,7 +9,8 @@ const SettingsScreen = ({ navigation }) => {
 
       <Button
         onPress={() => navigation.navigate('Intro')}
-        title='Log Out / Bsck to Intro'
+        title='Log Out / Back to Intro'
+        color='#fa6400'
       />
     </View>
   )
@@ -25,8 +26,8 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    textAlign: "center",
-    color: "#fa6400",
+    textAlign: 'center',
+    color: '#fa6400',
     marginVertical: 20,
     //width: 350,
   },

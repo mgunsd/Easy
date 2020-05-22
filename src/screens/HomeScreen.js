@@ -7,11 +7,10 @@ const HomeScreen = ({ navigation }) => {
       <Text style={styles.subtitle}>This is Home Screen</Text>
 
 
-
-
       <Button
         onPress={() => navigation.navigate('Settings')}
         title='Go to Settings'
+        color='#6236ff'
       />
     </View>
   )
@@ -23,13 +22,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'space-around',
+    padding: 20,
     //alignItems: 'center',
   },
   subtitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    textAlign: "center",
-    color: "#fa6400",
+    textAlign: 'center',
+    color: '#fa6400',
     marginVertical: 20,
     //width: 350,
   },
