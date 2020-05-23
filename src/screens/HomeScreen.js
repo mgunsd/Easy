@@ -9,6 +9,9 @@ const HomeScreen = ({ navigation }) => {
         <Button onPress={() => navigation.navigate('Card')} title='Card' color='#6236ff' />
       </View>
       <View style={styles.buttonContainer}>
+        <Button onPress={() => navigation.navigate('RNCSegmented')} title='Segmented Control' color='#6236ff' />
+      </View>
+      <View style={styles.buttonContainer}>
         <Button onPress={() => navigation.navigate('DateTimeC')} title='Date Time Picker Community' color='#6236ff' />
       </View>
       <View style={styles.buttonContainer}>
