@@ -18,6 +18,9 @@ const HomeScreen = ({ navigation }) => {
         <Button onPress={() => navigation.navigate('DateTimeM')} title='Date Time Picker Modal' color='#6236ff' />
       </View>
       <View style={styles.buttonContainer}>
+        <Button onPress={() => navigation.navigate('Table')} title='Table' color='#6236ff' />
+      </View>
+      <View style={styles.buttonContainer}>
         <Button onPress={() => navigation.navigate('Settings')} title='Go to Settings' color='#6236ff' />
       </View>
 
