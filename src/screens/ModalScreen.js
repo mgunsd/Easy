@@ -7,6 +7,7 @@ import {
   TouchableHighlight,
   View
 } from "react-native";
+import H3Text from '../components/H3Text';
 
 const ModalScreen = ({ navigation }) => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -30,7 +31,7 @@ const ModalScreen = ({ navigation }) => {
                 setModalVisible(!modalVisible);
               }}
             >
-              <Text style={styles.textStyle}>Hide Modal</Text>
+              <H3Text style={styles.textStyle}>Hide Modal</H3Text>
             </TouchableHighlight>
           </View>
         </View>
@@ -42,7 +43,7 @@ const ModalScreen = ({ navigation }) => {
           setModalVisible(true);
         }}
       >
-        <Text style={styles.textStyle}>Show Modal</Text>
+        <H3Text style={styles.textStyle}>Show Modal</H3Text>
       </TouchableHighlight>
     </View>
   );
