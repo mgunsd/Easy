@@ -28,6 +28,9 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.buttonContainer}>
           <Button onPress={() => navigation.navigate('Settings')} title='Go to Settings' color='#6236ff' />
         </View>
+        <View style={styles.buttonContainer}>
+          <Button onPress={() => navigation.navigate('KeybordAvoid')} title='Keyboard Avoid Input' color='#6236ff' />
+        </View>
       </ScrollView>
     </View>
 
