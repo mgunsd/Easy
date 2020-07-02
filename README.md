@@ -16,3 +16,7 @@
 ## [React Native Community Segmented Control :](https://github.com/react-native-community/segmented-control#readme)
 
 - `expo install @react-native-community/segmented-control`
+
+## [Material-UI pickers](https://material-ui-pickers.dev/getting-started/installation)
+
+- `expo install @material-ui/pickers`

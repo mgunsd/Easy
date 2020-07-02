@@ -46,6 +46,8 @@ const DateTimePickerCommunity = () => {
           minimumDate={new Date()}
           cancelTextIOS='Cancel'
           confirmTextIOS='Confirm'
+          style={{ color: 'red' }}
+          textColor="red"
         />
       )}</View>
     </View>

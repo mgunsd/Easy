@@ -10,6 +10,7 @@ import TableScreen from '../screens/TableScreen';
 import ModalScreen from '../screens/ModalScreen';
 import SettingsScreen from '../screens/SettingsScreen.js';
 import KeybordAvoidScreen from '../screens/KeybordAvoidScreen.js';
+import MetarialUIPickerScreen from '../screens/MetarialUIPickerScreen';
 const Stack = createStackNavigator();
 export default HomeStack = () => (
   <Stack.Navigator initialRouteName='Home'>
@@ -21,6 +22,7 @@ export default HomeStack = () => (
     <Stack.Screen name='Table' component={TableScreen} />
     <Stack.Screen name='Modal' component={ModalScreen} />
     <Stack.Screen name='KeybordAvoid' component={KeybordAvoidScreen} />
+    <Stack.Screen name='Metarial UI Picker' component={MetarialUIPickerScreen} />
     <Stack.Screen name='Settings' component={SettingsScreen} />
   </Stack.Navigator>
 );

@@ -36,6 +36,7 @@ const DateTimePickerModal = () => {
       </TouchableOpacity>
 
       <DateTimePicker
+        isDarkModeEnabled={true}
         isVisible={isDatePickerVisible}
         headerTextIOS='Pick a Date'
         mode={mode}
